@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+</head>
+
+<body>
+    <h1>Consulta CEP</h1>
+
+    <div class="cep">
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" id="cep" name="cep" placeholder="Ex: 05000-000" readonly>
+    </div>
+
+    <div class="btn-cep">
+        <button type="button"id=buscar>Buscar CEP</button>
+        <div id="caixa-mensagem" class="area-mensagem" role="alert"></div>
+    </div>
+    
+    <div class="log">
+        <label for="Logradouro">Logradouro:</label>
+        <input type="text" id="Logradouro" name="Logradouro" readonly>
+    </div>
+
+    <div class="bairro">
+        <label for="Bairro">Bairro:</label>
+        <input type="text" id="Bairro" name="Bairro" readonly>
+    </div>
+
+    <div class="cid">
+        <label for="Cidade">Cidade:</label>
+        <input type="text" id="Cidade" name="Cidade" readonly>
+    </div>
+
+    <div class="est">
+        <label for="Estado">Estado:</label>
+        <input type="text" id="Estado" name="Estado" readonly>
+    </div>
+
+
+
+</body>
+
+</html>
